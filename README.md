@@ -1,5 +1,5 @@
 <style>
-  .tooltip .tooltip {    
+  .tooltip .tooltiptext {    
     visibility: hidden;
     width: 120px;
     background-color: black;
@@ -9,6 +9,10 @@
     padding: 5px 0;
     position: absolute;
     z-index: 1;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
   }
 </style>
 <h1 align="left">Hey 👋 What's up?</h1>
@@ -43,7 +47,7 @@
   <div class="tooltip">
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain-wordmark.svg" height="40" alt="Django logo"  />
     <img width="12" />
-    <span class="tooltiptext">Delphi</span>
+    <span class="tooltiptext">Django</span>
   </div>
 
   <div class="tooltip">
